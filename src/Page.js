@@ -86,7 +86,7 @@ module.exports = class {
 			config,
 		});
 		
-		return cmd(`node ${buildScript} '${json}'`, json);
+		return cmd(`node '${buildScript}' '${json}'`, json);
 	}
 	
 	build() {
